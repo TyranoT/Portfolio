@@ -1,24 +1,106 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #f5f5f5;
   --night: #222222;
+  --night-deep: #060010;
+  --night-light: #333333;
   --kiwi: #89E900;
+  --kiwi-dark: #5AA000;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-night: var(--night);
+  --color-night-deep: var(--night-deep);
+  --color-night-light: var(--night-light);
   --color-kiwi: var(--kiwi);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-kiwi-dark: var(--kiwi-dark);
+  --font-azonix: var(--font-azonix);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Scroll “premium” vem do Lenis (smooth_scroll). Evitar `scroll-behavior: smooth` aqui para não
+   competir com a inércia do Lenis; `data-scroll-behavior` no layout alinha hash/Link com o App Router. */
+html {
+  scroll-behavior: auto;
+  scroll-padding-top: 5rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--kiwi-dark) var(--night-deep);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--kiwi-dark) var(--night-deep);
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--night-deep);
+  border-left: 1px solid rgba(137, 233, 0, 0.12);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--kiwi) 0%, var(--kiwi-dark) 100%);
+  border-radius: 9999px;
+  border: 2px solid var(--night-deep);
+  box-shadow: 0 0 8px rgba(137, 233, 0, 0.35);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--kiwi);
+  box-shadow: 0 0 12px rgba(137, 233, 0, 0.5);
+}
+
+*::-webkit-scrollbar-corner {
+  background: var(--night-deep);
+}
+
+.glow-kiwi {
+  box-shadow: 0 0 20px rgba(137, 233, 0, 0.3), 0 0 60px rgba(137, 233, 0, 0.1);
+}
+
+.glow-kiwi-sm {
+  box-shadow: 0 0 10px rgba(137, 233, 0, 0.2);
+}
+
+.glow-kiwi-text {
+  text-shadow: 0 0 20px rgba(137, 233, 0, 0.5), 0 0 40px rgba(137, 233, 0, 0.2);
+}
+
+.border-glow-kiwi {
+  border-color: var(--kiwi);
+  box-shadow: 0 0 8px rgba(137, 233, 0, 0.25), inset 0 0 8px rgba(137, 233, 0, 0.05);
+}
+
+.bg-grid-pattern {
+  background-image:
+    linear-gradient(rgba(137, 233, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(137, 233, 0, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.typing-cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1em;
+  background: var(--kiwi);
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  animation: blink 0.7s step-end infinite;
+  box-shadow: 0 0 6px rgba(137, 233, 0, 0.5);
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
 }
