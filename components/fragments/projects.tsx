@@ -53,7 +53,7 @@ const PRIVATE_PROJECTS = [
     title: "Sweet Control",
     description:
       "Software de precificação, controle de vendas e estoque desenvolvido para uma confeitaria.",
-    tags: ["Precificação", "Vendas", "Estoque"],
+    tags: ["Precificação", "Vendas", "Estoque", "Vue.js", "Fastify.js"],
   },
   {
     title: "HLP Vendas",
@@ -65,7 +65,13 @@ const PRIVATE_PROJECTS = [
     title: "G-NESIS",
     description:
       "Sistema com múltiplas integrações e micro frontends para gestão de obra e âmbito corporativo.",
-    tags: ["Micro frontends", "Integrações", "Gestão"],
+    tags: ["Micro frontends", "Integrações", "Gestão", "Next.js", "Express.js"],
+  },
+  {
+    title: "Dashboard Astrazeneca",
+    description:
+      "Sistema de apresentação comercial e de desempenho dos novos produtos da AstraZeneca no Brasil, consolidado pela diretoria e premiado internamente na empresa.",
+    tags: ["Dashboard", "Comercial", "Indicadores", "Next.js", "Github API"],
   },
 ];
 
