@@ -13,6 +13,7 @@ import {
   SiRabbitmq, SiArduino, SiGit, SiGithub,
   SiNpm, SiLinux, SiJira, SiGithubactions, SiN8N, SiNotion,
   SiLangchain, SiCplusplus, SiEspressif,
+  SiTerraform,
 } from "react-icons/si";
 import { FaLayerGroup, FaAws, FaBrain } from "react-icons/fa6";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
@@ -74,6 +75,7 @@ const CATEGORIES: { title: string; techs: TechItem[] }[] = [
       { name: "Nginx", Icon: SiNginx },
       { name: "Vercel", Icon: SiVercel, featured: true },
       { name: "Docker", Icon: SiDocker, featured: true },
+      { name: "Terraform", Icon: SiTerraform, featured: true },
       { name: "RabbitMQ", Icon: SiRabbitmq },
     ],
   },

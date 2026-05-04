@@ -65,7 +65,7 @@ const PRIVATE_PROJECTS = [
     title: "G-NESIS",
     description:
       "Sistema com múltiplas integrações e micro frontends para gestão de obra e âmbito corporativo.",
-    tags: ["Micro frontends", "Integrações", "Gestão", "Next.js", "Express.js"],
+    tags: ["Micro frontends", "Integrações", "Gestão", "Next.js", "Express.js", "Terraform", "AWS", "RabbitMQ"],
   },
   {
     title: "Dashboard Astrazeneca",
