@@ -8,6 +8,17 @@ import ProjectCard from "../ui/project_card";
 
 const PROJECTS = [
   {
+    title: "Strongy",
+    description:
+      "IA pessoal no WhatsApp: recebe áudios, fotos e textos, interpreta o contexto do usuário e responde de forma inteligente e personalizada. Integrado ao WhatsApp via Meta API.",
+    tags: ["FastAPI", "Gemini", "ChatGPT", "Next.js", "Meta API", "PostgreSQL"],
+    previewImage: "/preview/preview_strongy.png",
+    previewHref: "https://strongy.com.br",
+    links: [
+      { label: "Site", url: "https://strongy.com.br", type: "demo" as const },
+    ],
+  },
+  {
     title: "Molel",
     description:
       "Software de simulação de estruturas de cadeias carbônicas. Projeto desenvolvido com TypeScript, com foco em utilidade educacional e científica.",
