@@ -32,16 +32,16 @@ const EVENTS = [
       "Publicação do pacote npm WidgetPDF e desenvolvimento do Molel, simulador de cadeias carbônicas em TypeScript. Primeiro contato com open source e projetos científicos.",
   },
   {
+    year: "2024",
+    title: "Início — Ciência da Computação & IoT",
+    description:
+      "Ingresso no curso de Ciência da Computação na Paraíba. Paralelamente, primeiros experimentos com IoT: projetos com Arduino e ESP32.",
+  },
+  {
     year: "2022 – hoje",
     title: "Freelancer Frontend",
     description:
-      "Início como desenvolvedor freelancer, atendendo clientes com projetos web responsivos. Expansão do stack com Flutter, React Native, Arduino e ESP32.",
-  },
-  {
-    year: "2021",
-    title: "Início — Ciência da Computação",
-    description:
-      "Início do curso de Ciência da Computação na Paraíba. Primeiros projetos web com HTML, CSS e JavaScript.",
+      "Início como desenvolvedor freelancer, atendendo clientes com projetos web responsivos. Expansão do stack com Flutter e React Native.",
   },
 ];
 
