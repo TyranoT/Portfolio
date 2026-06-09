@@ -8,28 +8,34 @@ import TimelineItem from "../ui/timeline_item";
 
 const EVENTS = [
   {
-    year: "2024",
-    title: "Projetos Full Stack & Arquitetura",
+    year: "2024 – hoje",
+    title: "Tech Lead & Full-Stack — AahBrant",
     description:
-      "Desenvolvimento de aplicações completas com React, Next.js, Node.js e integrações com IA (LangChain, AI SDK). Foco em arquitetura limpa e boas práticas.",
+      "Promoção para Full-Stack Developer e liderança técnica da empresa. Responsável pela estruturação completa do setor de Tecnologia e Inovação: arquitetura de sistemas, decisões técnicas, micro frontends e integrações corporativas.",
+  },
+  {
+    year: "2025 – 2026",
+    title: "Responsável pela Strongy",
+    description:
+      "Liderou o desenvolvimento da Strongy, IA pessoal no WhatsApp capaz de interpretar áudios, fotos e textos. Stack: FastAPI, Gemini, ChatGPT, Next.js, Meta API e PostgreSQL.",
+  },
+  {
+    year: "2023 – 2024",
+    title: "Frontend Estagiário → Júnior — AahBrant",
+    description:
+      "Entrada na AahBrant Engenharia & Construções como estagiário frontend. Evolução para Júnior com participação em projetos reais de gestão e dashboards internos.",
   },
   {
     year: "2023",
-    title: "Publicação npm — WidgetPDF",
+    title: "WidgetPDF & Molel — Open Source",
     description:
-      "Criação e publicação do primeiro pacote npm. Widget reutilizável para PDFs, mostrando compromisso com ferramentas open source para devs.",
+      "Publicação do pacote npm WidgetPDF e desenvolvimento do Molel, simulador de cadeias carbônicas em TypeScript. Primeiro contato com open source e projetos científicos.",
   },
   {
-    year: "2023",
-    title: "Projeto Molel — Simulação Científica",
+    year: "2022 – hoje",
+    title: "Freelancer Frontend",
     description:
-      "Software de simulação de cadeias carbônicas em TypeScript. Projeto educacional e científico voltado para química orgânica.",
-  },
-  {
-    year: "2022",
-    title: "Exploração Mobile & IoT",
-    description:
-      "Experimentos com Flutter, React Native, Arduino e ESP32. Ampliação do stack técnico para mobile e sistemas embarcados.",
+      "Início como desenvolvedor freelancer, atendendo clientes com projetos web responsivos. Expansão do stack com Flutter, React Native, Arduino e ESP32.",
   },
   {
     year: "2021",
