@@ -20,13 +20,13 @@ const EVENTS = [
       "Lidera o desenvolvimento da Strongy, IA pessoal no WhatsApp capaz de interpretar áudios, fotos e textos. Stack: FastAPI, Gemini, ChatGPT, Next.js, Meta API e PostgreSQL.",
   },
   {
-    year: "2023 – 2024",
+    year: "2024",
     title: "Frontend Estagiário → Júnior — AahBrant",
     description:
       "Entrada na AahBrant Engenharia & Construções como estagiário frontend. Evolução para Júnior com participação em projetos reais de gestão e dashboards internos.",
   },
   {
-    year: "2023",
+    year: "2025",
     title: "WidgetPDF & Molel — Open Source",
     description:
       "Publicação do pacote npm WidgetPDF e desenvolvimento do Molel, simulador de cadeias carbônicas em TypeScript. Primeiro contato com open source e projetos científicos.",
