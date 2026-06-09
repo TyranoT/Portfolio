@@ -14,10 +14,10 @@ const EVENTS = [
       "Promoção para Full-Stack Developer e liderança técnica da empresa. Responsável pela estruturação completa do setor de Tecnologia e Inovação: arquitetura de sistemas, decisões técnicas, micro frontends e integrações corporativas.",
   },
   {
-    year: "2025 – 2026",
+    year: "2026 – hoje",
     title: "Responsável pela Strongy",
     description:
-      "Liderou o desenvolvimento da Strongy, IA pessoal no WhatsApp capaz de interpretar áudios, fotos e textos. Stack: FastAPI, Gemini, ChatGPT, Next.js, Meta API e PostgreSQL.",
+      "Lidera o desenvolvimento da Strongy, IA pessoal no WhatsApp capaz de interpretar áudios, fotos e textos. Stack: FastAPI, Gemini, ChatGPT, Next.js, Meta API e PostgreSQL.",
   },
   {
     year: "2023 – 2024",
